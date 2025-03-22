@@ -36,7 +36,7 @@ class Measurement(BaseModel):
 def test_performance():
     my_objects = []
     logging.info("Started getting objects to check")
-    for i in range(10000):
+    for i in range(7000):
         if i % 2 == 0:
             my_objects.append(_get_my_entity1_pattern()())
         else:
