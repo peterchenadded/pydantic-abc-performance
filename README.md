@@ -1,6 +1,11 @@
 Reproducer for https://github.com/python/cpython/issues/92810
 
+```python
 pip install -r requirements.txt
 
-pytest test_performance.py --profile --log-cli-level=INFO
-pytest test_performance_fix.py --profile --log-cli-level=INFO
+# Run below it takes long time
+pytest test_performance.py --log-cli-level=INFO
+
+# Run below it takes seconds
+pytest test_performance_fix.py --log-cli-level=INFO
+```
