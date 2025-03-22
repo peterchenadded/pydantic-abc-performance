@@ -1,0 +1,5 @@
+pydantic==2.11.0b2
+pytest==8.3.5
+pytest-profiling==1.8.1
+snakeviz==2.2.2
+pytest-memray==1.7.0
